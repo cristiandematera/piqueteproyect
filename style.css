@@ -1,0 +1,150 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+
+.header{
+    display: flex;
+    place-content: center;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    border-bottom: 1px solid gray;
+    margin: 0 100px 0 100px;
+}
+ header figure {
+    width: 150px;
+}
+
+.menu{
+    display: flex;
+    margin-right: 20px;
+    font-weight: bold;
+    font-size: 3rem;
+   
+
+}
+.menu__ol{
+    display: flex;
+    list-style: none;
+   
+}
+.menu__ol li{
+    margin-left: 15px;
+}
+.menu__enlace{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.banderas{
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-rows: 1fr;
+    gap: 20px;
+    place-content: center;
+    place-items: center;
+    height: auto;
+    width: auto;
+   
+
+}
+.bandera__articulo{
+    margin-top: 50px;
+    width: 100%;
+}
+.bandera__img{
+    width: 200px;
+    height: 200px;
+}
+.bandera__parrafo{
+    margin: 10px;
+    font-size: 2rem;
+    
+    
+}
+
+.bandera__button{
+    padding: 10px 20px 10px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid gray;
+    text-transform: uppercase;
+    background-color: darkslategray;
+    color: white;
+}
+
+.article__principal{
+    display: flex;
+    width: auto;
+    height: 600px;
+    margin: 100px 120px 150px 120px;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 5px;
+
+}
+.article{
+ margin-left: 150px;
+}
+.article__imgContainer{
+   
+    width: 500px;
+}
+.article__textContainer{
+    width: 500px;
+    margin-right: 100px;
+}
+.article__titulo{
+    font-size: 3.2rem;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.article__subtitulo{
+    margin-bottom: 15px;
+    font-size: 2.2rem;
+    color: blue;
+}
+.article__parrafo{
+    margin-bottom: 15px;
+    font-size: 3rem;
+}
+.article__button{
+    padding: 15px 60px 15px 60px;
+    margin-top: 50px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    background: aquamarine;
+    
+}
+.article__button a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.9rem;
+    font-weight: bold;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    height: 150px;
+    background-color: aquamarine;
+}
+.footer__p1,.footer__p2 p{
+    font-weight: bold;
+    font-size: 2rem;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+
